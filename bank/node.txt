@@ -1,0 +1,48 @@
+
+db - mdb
+
+api - application programming interface
+api is used to link frontend and backend
+
+http
+
+request types
+
+POST  - Tto store datas    register
+GET   - to access data     login,balance check
+PUT   -complete updation   change full ac details
+PATCH -partial updation    deposit/withdraw
+DELETE - to delete datas   delete acc
+
+
+1xx - information
+200 - success
+300 - redirection
+400 - client error
+500 - server error
+
+REST API - representational state  transfer api
+
+json placeholder - dummy api
+
+apisetu.gov.in/api/cowin
+
+
+API in javaScript
+................
+
+AJAX - asynchronous javascript and xml
+
+    -xmlHttps
+    -fetch
+
+    javaScript is both sychronus and asynchronous (asynchronous means output shown delayed  )
+
+
+javaScript Engine
+................
+Heap  - everything will story in heap memory first
+Call stack - synchronus data(ith ahn adhyam output aayi purath vara)
+call quee - asynchronous data will store in call quee(after sychronus data gone it will go in call stack)
+event loop - it will check call stack continuosly to synchronus data is gone
+
